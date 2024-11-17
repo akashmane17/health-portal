@@ -2,6 +2,17 @@
 
 Health consulting platform where doctors prescribe guidance and necessory instructions to patients.
 
+## URL
+
+- https://health-portal-2y30.onrender.com/
+
+## Creds
+
+- admin: akash@gmail.com
+- doctor: sova@gmail.com
+- patient: sage@gmail.com
+- Password: password
+
 ## Features
 
 (All users)
