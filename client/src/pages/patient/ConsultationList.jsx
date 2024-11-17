@@ -5,6 +5,7 @@ import api from "../../api/api";
 import dayjs from "dayjs";
 import Breadcrum from "../../components/Breadcrum";
 import toast from "react-hot-toast";
+import { url } from "../../constants";
 
 const ConsultationList = () => {
   const { currentUser } = useMyContext();
@@ -32,7 +33,7 @@ const ConsultationList = () => {
       const fileName = `${consultationId}.pdf`;
 
       if (pdfPath) {
-        window.location.href = `${BASE_URL}/download/${fileName}`;
+        window.location.href = `${url}/download/${fileName}`;
       } else {
         toast.error("Prescription Not genrated yet");
       }
