@@ -32,8 +32,7 @@ const ConsultationList = () => {
       const fileName = `${consultationId}.pdf`;
 
       if (pdfPath) {
-        // window.location.href = `http://localhost:5000/download/${fileName}`;
-        window.location.href = `https://health-portal-api.onrender.com/download/${fileName}`;
+        window.location.href = `${BASE_URL}/download/${fileName}`;
       } else {
         toast.error("Prescription Not genrated yet");
       }
